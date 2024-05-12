@@ -1,0 +1,138 @@
+@import url(font.css);
+
+* {
+  font-family: fontello, sans-serif;
+}
+
+/*Banner section*/
+.section-title {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.title-name-job {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-name {
+  margin: 10px;
+  font-family: open_sanssemibold, sans-serif;
+}
+.title-job {
+  margin: 10px;
+  font-family: open_sanslight, sans-serif;
+}
+
+.title-pic {
+  width: 100%;
+}
+
+/*Phần Navigation*/
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  color: black;
+  width: 100vw;
+}
+
+.nav-info {
+  margin: 10px 30px;
+}
+
+.nav-name {
+  margin: 3px;
+  font-family: open_sanssemibold, sans-serif;
+}
+.nav-job {
+  margin: 5px;
+  margin-bottom: 10px;
+  font-family: open_sanslight, sans-serif;
+  color: rgb(207, 206, 206);
+}
+
+.item1,
+.item2,
+.item4,
+.item5 {
+  margin: 0px;
+  padding: 21px 20px;
+  border-left: solid 0.5px rgb(207, 206, 206);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  width: 100px;
+}
+
+.item5 {
+  border-right: solid 0.5px rgb(207, 206, 206);
+}
+
+.item3 {
+  margin: 0px;
+  padding: 0px 50px;
+  border-left: solid 0.5px rgb(207, 206, 206);
+}
+
+.icon {
+  color: rgba(0, 140, 255, 0.84);
+}
+
+/*Target and infomation section*/
+
+.container-taget-info {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+/*Target Section*/
+.section-target {
+  padding: 30px;
+  padding-left: 40px;
+  width: 50%;
+  background-color: rgb(238, 238, 238);
+}
+
+.section-content-target p {
+  color: rgb(112, 112, 112);
+}
+
+/*Information Section*/
+.section-content-info {
+  padding: 30px;
+  padding-left: 40px;
+  width: 50%;
+  background-color: rgb(225, 225, 225);
+}
+
+.detail {
+  color: rgb(112, 112, 112);
+}
+
+.detail-infomation {
+  color: rgb(69, 69, 69);
+}
+.icon-infor {
+  display: flex;
+}
+
+.icon-infor p {
+  padding-right: 10px;
+}
+
+.exp {
+  margin-top: 250px;
+}
